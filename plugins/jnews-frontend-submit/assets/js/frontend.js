@@ -1,0 +1,1 @@
+!function(n){"use strict";var o=function(o){o&&n("#jeg_loginform form").find("h3").html(o.message),window.jnews.loginregister.hook_form(),n.magnificPopup.open({type:"inline",removalDelay:500,midClick:!0,mainClass:"mfp-zoom-out",items:{src:"#jeg_loginform"}})};n(document).on("ready",(function(){n(".jeg_login_required").on("click",(function(n){n.preventDefault(),o()}))}))}(jQuery);
